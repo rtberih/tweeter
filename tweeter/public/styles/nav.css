@@ -1,0 +1,103 @@
+
+nav header{
+  position: absolute;
+}
+
+nav {
+    height: 120px;
+    background: #4056A1;
+    font-size: 30px;
+    padding: 1.5em 1.5em 0.5em 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.title{
+  font-family: Bungee;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.compose-tweet {
+  color: #FFFFFF;
+  
+}
+
+.navHeader {
+margin-top: 5em;
+z-index: 0;
+height: 400px;
+width: 100%;
+background: #be7913e6;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topright{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user_name { 
+  display: flex;
+  place-content: center start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Username {
+  margin: 0%;
+}
+
+@media only screen and (min-width: 1024px) {
+  
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav {
+    height: 120px;
+    background: #4056A1;
+    font-size: 30px;
+    padding: 1.5em 1.5em 0.5em 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+  .navHeader {
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+    height: 400px;
+    width: 40%;
+    background: #be7913e6;
+    margin: 500px 40px 40px 40px;
+}
+
+.new-tweet {
+  margin-top: 200px;
+}
+
+.container{
+  padding: 40px;
+}
+}

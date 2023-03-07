@@ -1,0 +1,109 @@
+.tweet-Container{
+  
+  /* border: black;
+  border-bottom: 4px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10em;
+}
+
+.tweets{
+  border: 4px solid rgba(0, 0, 0, 0.637);
+  padding: 00.5em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1em;
+  word-break: break-all;
+}
+
+.avatar {
+  display: inline-flex;
+  align-items: center;
+
+}
+
+.avatarname {
+  padding-left: 0.4em;
+}
+
+.tweetInput{
+  display: flex;
+  text-indent: 1.5em;
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0
+}
+.divider{
+  width: 100%;
+  border-top: 3px solid rgba(0, 0, 0, 0.322);
+
+}
+
+.tweetHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+}
+
+.username {
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 00.65em;
+}
+
+
+.tweets:hover{
+  box-shadow: 15px 10px 10px rgba(4, 15, 20, 0.295);
+}
+
+.timestamp{
+  display: flex;
+  justify-content: space-between;
+  /* padding-bottom: 0.75em; */
+  font-size: 0.6em;
+}
+
+.fas.fa-book:hover{
+  color: rgb(172, 149, 50);
+}
+
+.fas.fa-book{
+  padding-right: 0.5em;
+}
+
+.fas.fa-retweet:hover{
+  color: rgb(172, 149, 50);
+}
+
+.fas.fa-retweet{
+  padding-right: 00.5em;
+}
+
+.fas.fa-heart:hover{
+  color: rgb(172, 149, 50);
+}
+
+
+.tweetFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icons {
+  font-size: 0.7em;
+}
+
+#errorID {
+  display: none;
+  border-style: solid;
+  border-color: crimson;
+  font: 1em sans-serif;
+  color: crimson;
+  text-align: center;
+}
